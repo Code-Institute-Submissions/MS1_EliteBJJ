@@ -1,45 +1,64 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+## Milestone 1 – Elite BJJ Website
 
-Welcome USER_NAME,
+I am designing a website for a fictitious martial arts gym, specialising in offering Brazilian jiu-jitsu classes. The main goal of the website is encourage prospective customers to sign up for a free trial class, and provide information about the gym (e.g. classes available, timings, location). 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## UX
 
-## Gitpod Reminders
+_Overview_
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+For the gym operators, the website needs to serve as a tool to promote the gym in a positive light, in order to attract new clients. The main objective is to attract people to sign up for the free trial class. It also needs to provide potential clients with information such as the address, details on the classes and timings, and a simple way to contact the gym for any queries.
+For potential clients, the website needs to give details on what Brazilian jiu-jitsu involves, information about the instructors, and an impression of what the classes are like, in order for them to decide if they’re interested. They need practical information such as when classes take place, and where the gym is located, again to help them decide if they’re keen on joining. If they want to join, they need a simple way to sign up for a free trial via the website, or contact the gym, in case they have any questions they need answering before deciding.   
 
-`python3 -m http.server`
+_User Stories_
 
-A blue button should appear to click: *Make Public*,
+1. Gym Operator
+   *	I want to promote my gym in a positive light, in order to attract new clients and encourage them to sign up for a free trial class.
+   *	I want to provide basic information about my gym (e.g. what Brazilian jiu-jitsu involves, when classes take place, gym location), which will give prospective clients the details the need to make an informed decision about trialling the class. 
+   *	I want to provide a simple way for potential clients to contact me in case of any queries, as this will again help clients with their decision to join. 
+   *	I want the website to include links to my other social media accounts, as this will hopefully provide potential clients with more positive impressions of the gym, and encourage them to trial the class.
+   *	I want the website to include a way for new clients to quickly and easily joining up for a free class, as the main objective of the website is to get new clients.
+   
+2. Clients
+   *	I want some information on the classes, including some details on what Brazilian jiu-jitsu involves, the instructors, and class timings, to help me decide if I’m interested in trialling the class.
+   *	I want to get an impression or feel of the gym, and see what the gym looks like, to help me decide if I’m interested in trialling the class. 
+   *	I want details on the gym location, to help me decide if it’s convenient for me to join. 
+   *	I want to see what other users think of the classes, to help me decide if I’m interested in joining.
+   *	I want a way to contact the gym, if I have any further questions I may have, to help me decide if I’m interested in joining.
+   *  If I have decided to join, I want a quick and convenient way to sign up for my trial class.
+  
+_5 S's_
 
-Another blue button should appear to click: *Open Browser*.
+**Strategy** 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The primary goal is to meet the gym owners objectives, which is to encourage potential customers to sign up for a free trial class. To do this, the website needs to present a positive impression of the club. 
 
-A blue button should appear to click: *Make Public*,
+**Scope** 
 
-Another blue button should appear to click: *Open Browser*.
+The overall look and feel of the website was influenced by researching websites of similar businesses, particularly other mixed martial arts gyms, along with other traditional gyms:
+-	These generally have a sleek, modern feel, with vibrant colours, however they also incorporate a minimalistic design, where only two or three colours tend to be used throughout the website.
+-	The content on the websites is fairly minimal, the focus is on providing high-level useful information to the users (such as info on classes), along with encouraging users to sign-up.
+-	There are no complicated features used on these websites, they are simple to use and navigate through, you can usually scroll through the whole website in a matter of minutes. 
+-	The websites commonly use features such as images or videos of the gyms in use, user testimonials, and the listing any unique selling points (or reasons to join the gym) to create positive impressions for the users, and further encourage them to sign up. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+With this in mind, my website will include:
+-	A simple, user-friendly way for interested customers to sign up for a free trial
+-	Images of the club, so customers can get a general impression of the club, and positive imagery can be used as a promotional tool to encourage the user to sign up for a trial.
+-	User testimonials, so potential customers can again get a feel for the club, and again this is effective as a promotional tool to encourage the user to sign up. 
+-	Some benefits of joining the club, to further encourage the user to sign up.
+-	Essential practical information to help the customer decide if this club is suitable for them, including an introduction to the club and its instructors, some information on what Brazilian Jiu Jitsu classes involve, the club location, and the class schedule.
+-	A simple, user-friendly way for interested customers to contact the club to ask any questions. 
+-	The website will be simplistic in design in line with my current capabilities.
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+**Structure** 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+In line with my research from other similar websites, and based on the goals identified in the strategy section, the website will be structured as follows:
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+**Skeleton** 
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+**Surface** 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
 --------
 
-Happy coding!
