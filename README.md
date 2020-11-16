@@ -106,11 +106,18 @@ However, use of positive imagery can be effective in enticing potential customer
 -	The images are displayed in a “stacked” format, this is to keep with the efficient presentation throughout the site, where space is optimally used (the user can immediate see - variety of different images, there is no need to ‘click’ anywhere to move from one photo to the next, you simply scroll up or down)
 -	In addition, this presentation style is familiar with other social media sites like Instagram, so this will be a familiar format to the user 
 
-
 **Skeleton** 
+
+Link to wireframes
 
 **Surface** 
 
+-	The header and footer will be the same colour.
+-	The colour scheme will use 3 colours, black, white and red.
+-	Red has been used following research, where I found red invokes feelings of excitement, and wanting to take action, which is suited to a martial arts gym.
+-	The red is used for items where we want to draw the users attention, for example the main CTA button, and the ‘Why Join?’ bulletpoints on the home page.
+-	For smaller displays, the menu will change to a burger bar, for ease of use, and some sections will scroll from top-to-bottom instrad of left-to-right (i.e. the the ‘Why Join?’ bulletpoints and the instructors/class timetable on the about page).
+-	Similarly, the columns of images displayed on the gallery page will reduce from 3 to 2 for ease-of-use and cleaner presentation.
 
 
 --------
