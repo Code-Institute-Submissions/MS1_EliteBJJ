@@ -119,6 +119,26 @@ Link to wireframes
 -	For smaller displays, the menu will change to a burger bar, for ease of use, and some sections will scroll from top-to-bottom instrad of left-to-right (i.e. the the ‘Why Join?’ bulletpoints and the instructors/class timetable on the about page).
 -	Similarly, the columns of images displayed on the gallery page will reduce from 3 to 2 for ease-of-use and cleaner presentation.
 
+## Features
+
+_Existing_
+
+_Left to Implement_
+
+## Technologies Used
+
+## Testing
+
+## Deployment
+
+## Credits
+
+_Content_
+
+_Media_
+
+_Acknowledgements_
+
 
 --------
 
