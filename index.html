@@ -12,38 +12,44 @@
 </head>
 <body>
 
-<!-- Navbar -->
+<!-- Navbar --> 
     
     <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
+        
         <a href="/" class="navbar-brand text-uppercase">Elite BJJ</a>
 
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>        
-        </button>
+            </button>
 
-        <div class="collapse show navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ml-auto text-uppercase">
-                <li class="nav-item mr-2">
-                    <a class="nav-link" href="/">home</a>
-                </li>
-                <li class="nav-item mr-2">
-                    <a class="nav-link" href="about.html">about</a>
-                </li>
-                <li class="nav-item mr-2">
-                    <a class="nav-link" href="gallery.html">gallery</a>
-                </li>
-                <li class="nav-item mr-2">
-                    <a class="nav-link" href="contact.html">contact</a>
-                </li>
-            </ul>
-        </div>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto text-uppercase">
+                    <li class="nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
 
     </nav>
 
-
 <!-- Callout -->
 
+    <div class="container-fluid callout-container">
+        <div class="opaque-overlay">   </div> 
+        <div class="row">    
+            <div class="col-12">
+                <section class="jumbotron text-center">    
+                    <h1>Learn Brazilian Jiu Jitsu</h1>
+                    <hr class="callout-hr">
+                    <h3>Ready to Roll?</h3> 
+                    <p>Sign up now for a free trial at Elite BJJ!</p> 
+                    <a href="#" class="btn btn-danger">Sign Up!</a>
+                </section> 
+            </div>    
+        </div>  
+     </div>
     
 
 <!-- About -->
@@ -61,7 +67,9 @@
    
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- Bundle: Include everything you need in one script with our bundle. Our bootstrap.bundle.js and bootstrap.bundle.min.js include Popper, but not jQuery.  -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
 </body>
 </html>
