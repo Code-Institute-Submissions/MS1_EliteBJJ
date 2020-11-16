@@ -108,7 +108,7 @@ However, use of positive imagery can be effective in enticing potential customer
 
 **Skeleton** 
 
-https://github.com/upeshp/MS1_EliteBJJ/tree/master/assets/docs/wireframe
+[Wireframes](https://github.com/upeshp/MS1_EliteBJJ/tree/master/assets/docs/wireframe)
 
 **Surface** 
 
