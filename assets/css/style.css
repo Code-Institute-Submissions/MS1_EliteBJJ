@@ -46,10 +46,32 @@
 
 /*-- Pricing option boxes --*/
 
+.card-header {
+    background-color: #f05f40;
+}
+
 .pricing-option {
     color: #fff;
 }
 
 /*-- Footer --*/
 
+
+footer {
+    background-color: #343a40;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.footer-container {
+    padding: 20px;
+}
+
+.social-links li a i {
+    
+    color: #fafafa;
+    padding: 10px;
+    
+}
 
