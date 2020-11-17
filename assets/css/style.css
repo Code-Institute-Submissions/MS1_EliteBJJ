@@ -72,6 +72,39 @@ footer {
     
     color: #fafafa;
     padding: 10px;
+    border-radius: 50%;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
     
 }
 
+.social-links li a i:hover {
+    background: rgba(255,255,255,.5);
+}
+
+/*-- Testimonials Carousel --*/
+
+.testimonials-container {
+    height: 30vh;
+
+
+    background: url("../images/bjj_rolling1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    position: relative;
+}
+
+.carousel-item {
+    color: #fff;
+}
