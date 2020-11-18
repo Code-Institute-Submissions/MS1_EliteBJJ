@@ -44,6 +44,7 @@
     background-color: #fff;
 }
 
+
 /*-- Pricing option boxes --*/
 
 .card-header {
@@ -107,4 +108,24 @@ footer {
 
 .carousel-item {
     color: #fff;
+}
+
+
+
+/*--About BJJ jumbotron on about page --*/
+
+.info-container {
+    height: 100vh;
+
+    background: url("../images/bjj_main_rolling1.jpg") no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
 }
