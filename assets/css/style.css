@@ -12,7 +12,6 @@ body {
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     letter-spacing: 4px;
-
 }
 
 /*-- Navbar anchor hover  --*/
@@ -21,9 +20,21 @@ body {
     color: #f05f40;
 }
 
+/*-- Jumbotron Text --*/
 
+.cta-text {
+    color: #fafafa;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 4px;
+}
 
+/*-- Section header text formatting --*/
 
+.section-header {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
 
 /*-- Underlining used for headers --*/
 
@@ -32,6 +43,7 @@ body {
     height: 5px;
     background-color :#f05f40;
 }
+
 
 /*-- Main jumbotron on home page --*/
 
@@ -80,6 +92,10 @@ body {
     color: #fff;
 }
 
+.card-body > h5 {
+    font-weight: bold;  
+}
+
 /*-- Footer --*/
 
 
@@ -92,6 +108,10 @@ footer {
 
 .footer-container {
     padding: 20px;
+}
+
+.footer-container > p {
+    font-size: 3px; 
 }
 
 .social-links li a i {
@@ -113,7 +133,7 @@ footer {
 /*-- Testimonials Carousel --*/
 
 .testimonials-container {
-    height: 30vh;
+    height: 60vh;
 
 
     background: url("../images/bjj_rolling1.jpg") no-repeat center center fixed; 
