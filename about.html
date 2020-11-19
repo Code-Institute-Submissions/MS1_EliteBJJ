@@ -7,7 +7,8 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
 <title>Elite BJJ | Brazilian Jiu Jitsu Classes</title>
 </head>
@@ -17,7 +18,7 @@
     
     <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
         
-        <a href="/" class="navbar-brand text-uppercase">Elite BJJ</a>
+        <a href="/" class="logo text-uppercase"><h1>Elite BJJ</h1></a>
 
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,14 +36,13 @@
 
     </nav>
 
-
 <!-- Info on BJJ -->
     <div class="container-fluid info-container">
         <div class="opaque-overlay">   </div> 
         <div class="row">    
             <div class="col-12">
                 <section class="jumbotron text-center">    
-                    <h1>About Brazilian Jiu Jitsu</h1>
+                    <h1 class="cta-text">About Brazilian Jiu Jitsu</h1>
                     <hr class="callout-hr">
                     <p>Brazilian jiu-jitsu (BJJ) is martial art and combat sport that focuses primarily on grappling and ground techniques. With its roots in Japanese Judo/Kano jiujitsu, jiu-jitsu was adapted. The main philosophy of jiu-jitsu is that a smaller, weaker person can successfully defend themselves against a stronger, heavier and bigger opponent through the use of leverage and technique.</p>
                     <p>Jiu-jitsu practitioners aim to take the fight to the ground through the use of joint locks and choke holds. They can defeat their opponent or force the opponent to give up and “tap out”</p>
@@ -58,7 +58,7 @@
         <div class="row">
             <div class="col-12">        
                 <section class="text-center">
-                    <h2 class="text-uppercase">Instructors</h2>
+                    <h2 class="text-uppercase section-header">Instructors</h2>
                     <hr class="heading-underline">
                 </section>
             </div>
@@ -73,7 +73,8 @@
                 </div>
             </div>
             <div class="col-lg-8 p-3">
-                <p class="text-uppercase">Kenny Florian</p> 
+                <p class="text-uppercase instructor-name">Kenny Florian</p>
+                <hr> 
                 <p>Coach Kenny is an avid practitioner and competitor of Brazilian Jiu-jitsu. is a Brazilian Jiu-jitsu Brown Belt, second degree Judo black belt ranked 4th in the UK and an active national and international competitor. He is also a seasoned MMA competitor, where he was a title challenger. He now focuses on teaching BJJ to his students.</p>
             </div>
         </div>
@@ -87,7 +88,8 @@
                 </div>
             </div>
             <div class="col-lg-8 p-3">
-                <p class="text-uppercase">Kenny Florian</p> 
+                <p class="text-uppercase instructor-name">Kenny Florian</p>
+                <hr> 
                 <p>Coach Kenny is an avid practitioner and competitor of Brazilian Jiu-jitsu. is a Brazilian Jiu-jitsu Brown Belt, second degree Judo black belt ranked 4th in the UK and an active national and international competitor. He is also a seasoned MMA competitor, where he was a title challenger. He now focuses on teaching BJJ to his students.</p>
             </div>
         </div>
@@ -101,7 +103,7 @@
         <div class="row">
             <div class="col-12">
                 <section class="text-center">
-                    <h2 class="text-uppercase">Timetable</h2>
+                    <h2 class="text-uppercase section-header">Timetable</h2>
                     <hr class="heading-underline">
                 </section>    
             </div>
@@ -112,40 +114,63 @@
         <div class="row">
             <div class="col-12">
                 <section class="text-center">
-                    <p>Classes take place at the following times:</p>
-                    <p>Monday: 19:30 - 21:00</p>
-                    <p>Wednesday: 19:30 - 21:00</p>
-                    <p>Saturday: 08:00 - 09:30</p>
+                <p>Classes take place at the following times:</p>
+                    <table class="table table-bordered">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">MON</th>
+                                <th scope="col">WED</th>
+                                <th scope="col">SAT</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">AM</th>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>08:00 - 09:30</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">PM</th>
+                                <td>19:30 - 21:00</td>
+                                <td>19:30 - 21:00</td>
+                                <td>-</td>
+                            </tr>
+                        </tbody>
+                        
+                    </table>
+                    
                 </section>    
             </div>
         </div>    
     </div>
     
-    <hr>
+    
 
-
+    
 
 
 <!-- Footer -->
 
     <footer class="container-fluid">
         <div class="row footer-container">        
-            <div class="col-lg-4 text-center">
-                <h5>Address</h5>
-                <p class="inline-block">WOLSEY BUSINESS PARK, Unit 4, Tolpits Ln, Watford WD18 9BL</p>
+            <div class="col-md-4 text-center">
+                <p class="inline-block"><i class="far fa-copyright"></i> U.Patel 2020</p>
             </div>        
-            <div class="col-lg-4 text-center">
-                <p class="inline-block">Copyright ...</p>
+            <div class="col-md-4 text-center">
+                
             </div>        
-            <div class="col-lg-4 col-sm-12 text-center">
+            <div class="col-md-4 col-sm-12 text-center">
                 <ul class="list-inline social-links">
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-facebook fa-3x"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-3x"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fab fa-instagram fa-3x"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-facebook fa-2x"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-2x"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
                 </ul>
             </div>         
         </div>       
     </footer>
+
 
 
 

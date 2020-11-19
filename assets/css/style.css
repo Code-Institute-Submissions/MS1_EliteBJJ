@@ -175,6 +175,12 @@ footer {
     position: relative;
 }
 
+/*-- Instructors Section --*/
+
+.instructor-name {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 4px;
+}
 
 /*-- Contact Form --*/
 
