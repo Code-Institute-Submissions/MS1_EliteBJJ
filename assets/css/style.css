@@ -135,11 +135,20 @@ footer {
 
 .form-container {
     
+    height: 100vh;
 
-    background: url("../images/bjj_main_rolling1.jpg") no-repeat bottom right fixed; 
-    
-    
+    background: url("../images/bjj_teaching.jpg") no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    
 }
 
 .contact-form {
@@ -147,30 +156,8 @@ footer {
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
+    
 }
 
+/*-- Map --*/
 
-
-/*-- Gallery --*/
-
-#photo {
-    clear: both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0px;
-}
-
-@media screen and (max-width: 800px)
-#photo {
-    column-count: 2;
-}
-
-@media screen and (max-width: 943px)
-#photo {
-    column-count: 3;
-}
-
-.map-container {
-    background: url("../images/map.JPG") no-repeat fixed;
-    height: 100vh;
-}
