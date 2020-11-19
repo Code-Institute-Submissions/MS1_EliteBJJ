@@ -134,22 +134,16 @@ footer {
 /*-- Contact Form --*/
 
 .form-container {
-    
-    height: 100vh;
-
-    background: url("../images/bjj_teaching.jpg") no-repeat; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url("../images/bjj_main_rolling1.jpg") no-repeat center;
     background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-    
+    background-position: center;
+    max-height: 100%;
+    height: 100vh;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.25);
+    padding: 30px;
 }
+
 
 .contact-form {
     
