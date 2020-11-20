@@ -63,7 +63,7 @@ body {
     position: relative;
 }
 
-.opaque-overlay {
+.opaque-overlay-callout {
     position: absolute;
     top: 0;
     left: 0;
@@ -162,7 +162,7 @@ footer {
 .info-container {
     height: 100vh;
 
-    background: url("../images/bjj_main_rolling1.jpg") no-repeat bottom right fixed; 
+    background: url("../images/spar-underhook.jpg") no-repeat center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -173,6 +173,15 @@ footer {
     justify-content: center;
 
     position: relative;
+}
+
+.opaque-overlay-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
 }
 
 /*-- Instructors Section --*/
