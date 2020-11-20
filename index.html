@@ -47,7 +47,7 @@
                     <hr class="callout-hr">
                     <h3 class="cta-text">Ready to Roll?</h3> 
                     <h5>Sign up now for a free trial at Elite BJJ</h5> 
-                    <a href="#" class="btn btn-danger">Sign Up</a>
+                    <a href="#" class="btn btn-danger" data-toggle="modal" data-target="#SignUpModal">Sign Up</a>
                 </section> 
             </div>    
         </div>  
@@ -180,22 +180,51 @@
     <footer class="container-fluid">
         <div class="row footer-container">        
             <div class="col-md-4 text-center">
-                <p class="inline-block"><i class="far fa-copyright"></i> U.Patel 2020</p>
-            </div>        
-            <div class="col-md-4 text-center">
-                
-            </div>        
+            </div>  
             <div class="col-md-4 col-sm-12 text-center">
-                <ul class="list-inline social-links">
+            <ul class="list-inline social-links">
                     <li class="list-inline-item"><a href="#"><i class="fab fa-facebook fa-2x"></i></a></li>
                     <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-2x"></i></a></li>
                     <li class="list-inline-item"><a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
                 </ul>
+            </div>
+            <div class="col-md-4 text-center">   
             </div>         
         </div>       
     </footer>
 
+<!-- Bootstrap Modal https://getbootstrap.com/docs/4.5/components/modal/ -->
 
+    <div class="modal" tabindex="-1" id="SignUpModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign up for a trial class</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="name" class="form-control" id="name" placeholder="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="Phone No.">
+                        </div>
+                        <p>Submit your details and we'll be in touch regarding your trial class</p>                        
+                        <button type="submit" class="btn btn-danger">Submit</button>
+                    </form>
+                </div>                
+            </div>
+        </div>
+    </div>
    
 
 
