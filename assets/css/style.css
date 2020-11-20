@@ -214,25 +214,35 @@ footer {
 
 /*-- Gallery --*/
 
-#photo img {
-    width: 100%;
+.row-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
 }
 
-#photo {
-    clear: both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0px;
+.column-gallery {
+  flex: 25%;
+  max-width: 33.3%;
+  padding: 0 4px;
+}
+
+.column-gallery img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  border-radius: 5px;
 }
 
 @media screen and (max-width: 800px) {
-    #photo {
-        column-count: 2;
-    }
+  .column-gallery {
+    flex: 50%;
+    max-width: 50%;
+  }
 }
 
-@media screen and (max-width: 943px) {
-    #photo {
-        column-count: 3;
-    }
+@media screen and (max-width: 600px) {
+  .column-gallery {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
