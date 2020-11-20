@@ -209,18 +209,30 @@ footer {
 
 /*-- Map --*/
 
-.mapouter {
-    position: relative;
-    text-align: right; 
-    height: 500px;
-    width: 600px;
-}
-    
-.gmap_canvas {
-    overflow: hidden;
-    background: none!important;
-    height: 500px;
-    width: 600px;
-}
 
 
+
+/*-- Gallery --*/
+
+#photo img {
+    width: 100%;
+}
+
+#photo {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+@media screen and (max-width: 800px) {
+    #photo {
+        column-count: 2;
+    }
+}
+
+@media screen and (max-width: 943px) {
+    #photo {
+        column-count: 3;
+    }
+}
