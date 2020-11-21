@@ -1,31 +1,9 @@
-/*-- Main body text --*/
+/*---- GENERAL ----*/
+
+/*-- Google fonts applied throughout website --*/
 
 body {
     font-family: 'Lato', sans-serif;
-
-}
-
-/*-- Navbar logo --*/
-
-.logo {
-    color: #fafafa;
-    font-family: 'Oswald', sans-serif;
-    font-weight: bold;
-    letter-spacing: 4px;
-}
-
-/*-- Navbar anchor hover  --*/
-
-.navbar > a:hover {
-    color: #f05f40;
-}
-
-/*-- Jumbotron Text --*/
-
-.cta-text {
-    color: #fafafa;
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 4px;
 }
 
 /*-- Section header text formatting --*/
@@ -45,7 +23,67 @@ body {
 }
 
 
-/*-- Main jumbotron on home page --*/
+/*---- NAVBAR ----*/
+
+/*-- Navbar logo formatting --*/
+
+.logo {
+    color: #fafafa;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+/*-- Navbar anchor hover color --*/
+
+.navbar > a:hover {
+    color: #f05f40;
+}
+
+
+/*---- FOOTER ----*/
+
+footer {
+    background-color: #343a40;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+.footer-container {
+    padding: 20px;
+}
+
+.footer-container > p {
+    font-size: 3px; 
+}
+
+.social-links li a i {
+    color: #fafafa;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: rgba(255,255,255,.5);
+}
+
+
+/*---- JUMBOTRON ----/
+
+/*-- Jumbotron Text --*/
+
+.cta-text {
+    color: #fafafa;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 4px;
+}
+
+/*-- Callout jumbotron on home page --*/
 
 .callout-container {
     height: 100vh;
@@ -81,83 +119,7 @@ body {
     background-color: #fff;
 }
 
-
-/*-- Pricing option boxes --*/
-
-.card-header {
-    background-color: #f05f40;
-}
-
-.pricing-option {
-    color: #fff;
-}
-
-.card-body > h5 {
-    font-weight: bold;  
-}
-
-/*-- Footer --*/
-
-
-footer {
-    background-color: #343a40;
-    color: #fafafa;
-    min-height: 120px;
-    margin: 0;
-}
-
-.footer-container {
-    padding: 20px;
-}
-
-.footer-container > p {
-    font-size: 3px; 
-}
-
-.social-links li a i {
-    
-    color: #fafafa;
-    padding: 10px;
-    border-radius: 50%;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-    
-}
-
-.social-links li a i:hover {
-    background: rgba(255,255,255,.5);
-}
-
-/*-- Testimonials Carousel --*/
-
-.testimonials-container {
-    height: 60vh;
-
-
-    background: url("../images/bjj_rolling1.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-
-    position: relative;
-}
-
-.carousel-item {
-    color: #fff;
-}
-
-
-
-/*--About BJJ jumbotron on about page --*/
+/*-- Info jumbotron on about page --*/
 
 .info-container {
     height: 100vh;
@@ -184,17 +146,62 @@ footer {
     background-color: rgba(0,0,0,0.5);
 }
 
-/*-- Instructors Section --*/
+
+/*-- PRICING --*/
+
+/*-- Pricing option boxes --*/
+
+.card-header {
+    background-color: #f05f40;
+}
+
+.pricing-option {
+    color: #fff;
+}
+
+.card-body > h5 {
+    font-weight: bold;  
+}
+
+
+/*-- TESTIMONIALS CAROUSEL --*/
+
+/*-- Carousel background image --*/
+
+.testimonials-container {
+    height: 60vh;
+
+    background: url("../images/bjj_rolling1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.carousel-item {
+    color: #fff;
+}
+
+
+/*---- INSTRUCTORS ----*/
+
+/*-- Instructor name formatting --*/
 
 .instructor-name {
     font-family: 'Oswald', sans-serif;
     letter-spacing: 4px;
 }
 
-/*-- Timetable --*/
 
+/*----  CONTACT ----*/
 
-/*-- Contact Form --*/
+/*-- Form background image --*/
 
 .form-container {
     background: url("../images/white-belt.jpg") no-repeat center;
@@ -207,6 +214,7 @@ footer {
     padding: 30px;
 }
 
+/*-- Form section --*/
 
 .contact-form {
     
@@ -216,12 +224,10 @@ footer {
     
 }
 
-/*-- Map --*/
 
+/*---- GALLERY ----*/
 
-
-
-/*-- Gallery --*/
+/*-- Image container formatting --*/
 
 .row-gallery {
   display: flex;
@@ -241,6 +247,8 @@ footer {
   width: 100%;
   border-radius: 5px;
 }
+
+/*-- Making image containers responsive --*/
 
 @media screen and (max-width: 800px) {
   .column-gallery {
