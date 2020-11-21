@@ -22,9 +22,12 @@
     
 </head>
 
+<!-- Note: Adding padding as top of contecnt is being hidden by navbar. -->
+<!-- Credit: Used the following info to resolve https://stackoverflow.com/questions/10336194/top-nav-bar-blocking-top-content-of-the-page -->
 <body style="padding-top:50px;">
 
-<!-- Navbar --> 
+<!-- NAVBAR --> 
+<!-- Credit: Influenced by the Code Institute "Whiskey Drop" exercise, used navbar code and modified for my site. --> 
     
     <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
         
@@ -47,7 +50,9 @@
     </nav>
 
 
-<!-- Location -->
+<!-- LOCATION -->
+<!-- Credit: Used code from this website and modified to add the google map https://www.embedgooglemap.net/en/?gclid=EAIaIQobChMI7eqzj-yQ7QIVAuvtCh1wrwHSEAAYASAAEgJInPD_BwE-->
+
     <div class="container-fluid mt-5">
         <div class="row">
             <div class="col-12">        
@@ -59,10 +64,11 @@
         </div>        
     </div>
     
-
+    <!-- Note: Placing map and address in bootstrap grid to make responsive. -->
     <div class="container">
         <div class="row mt-3 no-gutters">
             <div class="col-sm-12 col-md-6 p-3">
+                <!-- Credit: See comment above https://www.embedgooglemap.net/en/?gclid=EAIaIQobChMI7eqzj-yQ7QIVAuvtCh1wrwHSEAAYASAAEgJInPD_BwE-->
                 <div class="mapouter">
                     <iframe width="500" height="300" style="max-width: 100%;" src="https://maps.google.com/maps?q=WD18%209BL&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
                     </iframe>
@@ -86,9 +92,12 @@
 
 
 
-<!-- Contact Form -->
+<!-- CONTACT FORM -->
+<!-- Credit: Used code from the form in the Code Institute "Love Running" exercise and modified. -->
+<!-- Credit: Also referred to bootstrap documentation on forms https://getbootstrap.com/docs/4.0/components/forms/ -->
 
     <div class="container-fluid form-container">
+        <!-- Credit: Referred to Anna Greaves bootstrap guide for centering form in the container https://ajgreaves.github.io/bootstrap-grid-demo/ -->
         <div class="row justify-content-center align-items-center">    
             <div class="col-md-6 col-sm-12">
                 <section class="form-section">
@@ -119,8 +128,9 @@
 
 
 
-<!-- Footer -->
+<!-- FOOTER -->
 
+    <!-- Note: Structured in bootsrap grid to make responsive. -->
     <footer class="container-fluid">
         <div class="row footer-container">        
             <div class="col-md-4 text-center">
@@ -142,7 +152,8 @@
    
 
 
-<!-- Bundle: Include everything you need in one script with our bundle. Our bootstrap.bundle.js and bootstrap.bundle.min.js include Popper, but not jQuery.  -->
+<!-- BOOTSTRAP LINKS -->
+    <!-- Description from bootstrap website on links below : Include everything you need in one script with our bundle. Our bootstrap.bundle.js and bootstrap.bundle.min.js include Popper, but not jQuery.  -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
