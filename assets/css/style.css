@@ -204,7 +204,7 @@ footer {
 /*-- Form background image --*/
 
 .form-container {
-    background: url("../images/white-belt.jpg") no-repeat center;
+    background: url("../images/white_belt.jpg") no-repeat center;
     background-size: cover;
     background-position: center;
     max-height: 100%;
