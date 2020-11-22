@@ -204,7 +204,7 @@ The website code was written in gitpod (IDE). The code was stored in github (rep
 
 To deploy the website, under the github repository, I went to settings > github pages > chose ‘master’ branch, after which the website was deployed.
 
-You can run the code locally by clicking on the ‘code’ button on my repository:
+You can run the code locally by clicking on the ‘code’ button on my repository, full link below:
 https://github.com/upeshp/MS1_EliteBJJ
 
 ## Credits
@@ -215,42 +215,35 @@ _Media_
 
 _Acknowledgements_
 
-The structure and layout of the website was strongly influenced from the Code Institute exercises ‘Whiskey Drop’, ‘Love Running’, and ‘Rosie CV’
-https://courses.codeinstitute.net/program/FullstackWebDeveloper
+The structure and layout of the website was strongly influenced from the Code Institute exercises ‘Whiskey Drop’, ‘Love Running’, and ‘Rosie CV’:
+ - [Code Institute](https://courses.codeinstitute.net/program/FullstackWebDeveloper)
 
-The presentations from Jim Lynx & Anna Greaves from Code Institute on MS1 were frequently used throughout:
-https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1600891345081300?thread_ts=1600879715.061700&cid=C7J2ZAVHB
+The slack presentations from Jim Lynx & Anna Greaves from Code Institute on MS1 were frequently used throughout:
+ - [Presentations](https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1600891345081300?thread_ts=1600879715.061700&cid=C7J2ZAVHB)
 
 The following jiu-jitsu club and gym websites were used for research purposes to help me define my scope:
-www.purejiujitsu.com
-www.ruislipbjj.com
-www.pumpgyms.com/watfordtolpitslane
+ - www.purejiujitsu.com
+ - www.ruislipbjj.com
+ - www.pumpgyms.com/watfordtolpitslane
+
 Bootstrap documentation was used to tailor and correct code:
-https://getbootstrap.com/docs/4.5/
+ - [Bootstrap Documentation](https://getbootstrap.com/docs/4.5/)
 
 Images were used from Unsplash:
-https://unsplash.com/s/photos/martial-arts
-The following websites have code I borrowed from:
-Map section:
-https://www.embedgooglemap.net/en/?gclid=EAIaIQobChMI7eqzj-yQ7QIVAuvtCh1wrwHSEAAYASAAEgJInPD_BwE
+- [Unsplash](https://unsplash.com/s/photos/martial-arts)
 
-Gallery page:
-https://codepen.io/Fullyworld_Web_Tutorials/pen/KKdppEZ
+The following websites have code I borrowed from:
+ - Map section: https://www.embedgooglemap.net/en/?gclid=EAIaIQobChMI7eqzj-yQ7QIVAuvtCh1wrwHSEAAYASAAEgJInPD_BwE
+ - Gallery page: https://codepen.io/Fullyworld_Web_Tutorials/pen/KKdppEZ
 
 The following websites were used to resolve issues:
-Top of content bwing hidden by navbar:
-https://stackoverflow.com/questions/10336194/top-nav-bar-blocking-top-content-of-the-page
+ - Top of content bwing hidden by navbar: https://stackoverflow.com/questions/10336194/top-nav-bar-blocking-top-content-of-the-page
+ - General aligning of items in bootstrap grid, especially the contact form: https://ajgreaves.github.io/bootstrap-grid-demo/
+ - Changing the color of the navbar hover link: https://stackoverflow.com/questions/16625972/change-color-of-bootstrap-navbar-on-hover-link
+ - Fixed HTML validation error where ‘frameborder’ attribute was showing as obsolete: http://help.simplytestable.com/errors/html-validation/the-x-attribute-on-the-y-element-is-obsolete-use-css-instead/the-frameborder-attribute-on-the-iframe-element-is-obsolete-use-css-instead/
 
-General aligning of items in bootstrap grid, especially the contact form:
-https://ajgreaves.github.io/bootstrap-grid-demo/
-
-Changing the color of the navbar hover link:
-https://stackoverflow.com/questions/16625972/change-color-of-bootstrap-navbar-on-hover-link
-
-Fixed HTML validation error where ‘frameborder’ attribute was showing as obsolete:
-http://help.simplytestable.com/errors/html-validation/the-x-attribute-on-the-y-element-is-obsolete-use-css-instead/the-frameborder-attribute-on-the-iframe-element-is-obsolete-use-css-instead/
-
-Code institute mentor Akshat Garg
+Code institute mentor:
+ - Akshat Garg
 
 
 
