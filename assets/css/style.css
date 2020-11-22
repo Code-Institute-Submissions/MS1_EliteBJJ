@@ -22,7 +22,6 @@ body {
     background-color :#f05f40;
 }
 
-
 /*---- NAVBAR ----*/
 
 /*-- Navbar logo formatting --*/
@@ -39,7 +38,6 @@ body {
 .navbar > a:hover {
     color: #f05f40;
 }
-
 
 /*---- FOOTER ----*/
 
@@ -71,7 +69,6 @@ footer {
 .social-links li a i:hover {
     background: rgba(255,255,255,.5);
 }
-
 
 /*---- JUMBOTRON ----/
 
@@ -146,7 +143,6 @@ footer {
     background-color: rgba(0,0,0,0.5);
 }
 
-
 /*-- PRICING --*/
 
 /*-- Pricing option boxes --*/
@@ -162,7 +158,6 @@ footer {
 .card-body > h5 {
     font-weight: bold;  
 }
-
 
 /*-- TESTIMONIALS CAROUSEL --*/
 
@@ -188,7 +183,6 @@ footer {
     color: #fff;
 }
 
-
 /*---- INSTRUCTORS ----*/
 
 /*-- Instructor name formatting --*/
@@ -198,10 +192,7 @@ footer {
     letter-spacing: 4px;
 }
 
-
 /*----  CONTACT ----*/
-
-/*-- Map --*/
 
 /*-- Form background image --*/
 
@@ -225,7 +216,6 @@ footer {
     padding: 30px;
     
 }
-
 
 /*---- GALLERY ----*/
 
