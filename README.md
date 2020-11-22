@@ -137,7 +137,52 @@ _Left to Implement_
 
 ## Technologies Used
 
+- HTML5
+-	CSS3
+-	Bootstrap 4.5.2
+-	Gitpod
+-	Github
+
 ## Testing
+
+_General Functionality_
+
+- Tested the logo in navbar links back to homepage
+- Tested the links in navbar menu all link to the correct page
+- Tested the signup button brings up correct form via the modal
+- Tested all social media links in footer open in new tab
+- Tested map location correct
+- Tested map links open in separate tab (i.e. ‘directions’ or ‘view larger map’)
+- Tested contact form requests the required/mandatory information (i.e. name/email/subject)
+
+_User Stories_
+
+1. Gym Operator
+   *	I want to promote my gym in a positive light, in order to attract new clients and encourage them to sign up for a free trial class. 
+      *Lots of positive promotional information throughout website, including testimonials and images.*
+   *	I want to provide basic information about my gym (e.g. what Brazilian jiu-jitsu involves, when classes take place, gym location), which will give prospective clients the details the need to make an informed decision about trialling the class. 
+      *Website contains all this info, about page has details on jiu-jitsu, the timetable, the contact page has the location.*
+   *	I want to provide a simple way for potential clients to contact me in case of any queries, as this will again help clients with their decision to join. 
+      *There is a simple easy to use contact form on contact page.*
+   *	I want the website to include links to my other social media accounts, as this will hopefully provide potential clients with more positive impressions of the gym, and encourage them to trial the class.
+      *Social media links included in footer.*
+   *	I want the website to include a way for new clients to quickly and easily joining up for a free class, as the main objective of the website is to get new clients.
+      *Sign up button creates pop-up form, providing easy form to fill in to register for free class.*
+   
+2. Clients
+   *	I want some information on the classes, including some details on what Brazilian jiu-jitsu involves, the instructors, and class timings, to help me decide if I’m interested in trialling the class.
+      *Details provided on about page, giving info on jiu-jitsu, the instructors, and the timetable.*
+   *	I want to get an impression or feel of the gym, and see what the gym looks like, to help me decide if I’m interested in trialling the class. 
+      *Images are included on the gallery page for this purpose, aswell as throughout the site.*
+   *	I want details on the gym location, to help me decide if it’s convenient for me to join. 
+      *Location included in intro section on home page for overview, map and full address included on contact page.*
+   *	I want to see what other users think of the classes, to help me decide if I’m interested in joining.
+      *Testimonials included on home page.*
+   *	I want a way to contact the gym, if I have any further questions I may have, to help me decide if I’m interested in joining.
+      *Easy to use contact form included on contact page.*
+   *  If I have decided to join, I want a quick and convenient way to sign up for my trial class.
+      *Easy to use sign-up form after clicking the sign-up button.*
+
 
 ## Deployment
 
