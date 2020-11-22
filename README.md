@@ -123,7 +123,17 @@ However, use of positive imagery can be effective in enticing potential customer
 
 _Existing_
 
+- Jumbotron for the attention grabbing call to action section on home page
+-	Fixed navbar at top containing links to pages for ease-of-use
+-	Modal to pop-up the sign-up form, common way of presenting sign-up forms
+-	Carousel to display the testimonials, reduces screen real-estate and makes page more dynamic
+-	Responsive gallery page, to cater for all screen sizes
+-	Google map showing location, to easily enable user to see on map
+-	Contact form, to enable processing of queries
+
 _Left to Implement_
+
+- Website design fits in with simplistic approach intended, could include additional features such as videos a later date
 
 ## Technologies Used
 
