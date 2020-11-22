@@ -196,7 +196,7 @@ All code passed validation tests.
 
 _Images_
 
-I used https://tinypng.com/ to compress the images, once done this reduced the loading time for the website.
+I used [tiny png](https://tinypng.com/) to compress the images, once done this reduced the loading time for the website.
 
 ## Deployment
 
