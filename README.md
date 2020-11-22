@@ -183,8 +183,29 @@ _User Stories_
    *  If I have decided to join, I want a quick and convenient way to sign up for my trial class.
       *Easy to use sign-up form after clicking the sign-up button.*
 
+_Responsiveness_
+
+Used the inspect function to examine all pages of the website in all devices:
+-	On the about page I removed the ‘About BJJ’ header for smaller screens, as I found it wasn’t displaying properly
+-	I had to experiment with the contact form to get it to display fully on smaller screens, I ended up adding padding and changing the font-size of the ‘Any queries? Get in touch’ header to ensure there were no issues
+I ensured all features which were designed to be worked properly by changing the screen size and using the inspect function on developer tools, i.e. the ‘Why Join’ and ‘Pricing’ sections on the home page, the ‘Instructors’ section on the about page, the images on the gallery page, and the map and address on the ‘contact’ page.
+
+_HTML/CSS Code Validator_
+
+All code passed validation tests.
+
+_Images_
+
+I used https://tinypng.com/ to compress the images, once done this reduced the loading time for the website.
 
 ## Deployment
+
+The website code was written in gitpod (IDE). The code was stored in github (repository).
+
+To deploy the website, under the github repository, I went to settings > github pages > chose ‘master’ branch, after which the website was deployed.
+
+You can run the code locally by clicking on the ‘code’ button on my repository:
+https://github.com/upeshp/MS1_EliteBJJ
 
 ## Credits
 
@@ -193,6 +214,45 @@ _Content_
 _Media_
 
 _Acknowledgements_
+
+The structure and layout of the website was strongly influenced from the Code Institute exercises ‘Whiskey Drop’, ‘Love Running’, and ‘Rosie CV’
+https://courses.codeinstitute.net/program/FullstackWebDeveloper
+
+The presentations from Jim Lynx & Anna Greaves from Code Institute on MS1 were frequently used throughout:
+https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1600891345081300?thread_ts=1600879715.061700&cid=C7J2ZAVHB
+
+The following jiu-jitsu club and gym websites were used for research purposes to help me define my scope:
+www.purejiujitsu.com
+www.ruislipbjj.com
+www.pumpgyms.com/watfordtolpitslane
+Bootstrap documentation was used to tailor and correct code:
+https://getbootstrap.com/docs/4.5/
+
+Images were used from Unsplash:
+https://unsplash.com/s/photos/martial-arts
+The following websites have code I borrowed from:
+Map section:
+https://www.embedgooglemap.net/en/?gclid=EAIaIQobChMI7eqzj-yQ7QIVAuvtCh1wrwHSEAAYASAAEgJInPD_BwE
+
+Gallery page:
+https://codepen.io/Fullyworld_Web_Tutorials/pen/KKdppEZ
+
+The following websites were used to resolve issues:
+Top of content bwing hidden by navbar:
+https://stackoverflow.com/questions/10336194/top-nav-bar-blocking-top-content-of-the-page
+
+General aligning of items in bootstrap grid, especially the contact form:
+https://ajgreaves.github.io/bootstrap-grid-demo/
+
+Changing the color of the navbar hover link:
+https://stackoverflow.com/questions/16625972/change-color-of-bootstrap-navbar-on-hover-link
+
+Fixed HTML validation error where ‘frameborder’ attribute was showing as obsolete:
+http://help.simplytestable.com/errors/html-validation/the-x-attribute-on-the-y-element-is-obsolete-use-css-instead/the-frameborder-attribute-on-the-iframe-element-is-obsolete-use-css-instead/
+
+Code institute mentor Akshat Garg
+
+
 
 
 --------
