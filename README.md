@@ -105,7 +105,7 @@ This is included as the last page, as contact pages are generally the last page 
 -	The bottom of the page contains a form, for the user to easily be able to contact the club should they have any queries.
 -	The form will be pre-populated with placeholder text, so it is intuitive for the user to see how to fill in the form.
 
-6.	Gallery:
+7.	Gallery:
 
 This page is included to include some more images about the club, to further enhance the positive impression of the club, and enable the user to get more of a feel for the club. 
 
