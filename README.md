@@ -2,6 +2,8 @@
 
 I am designing a website for a fictitious martial arts gym, specialising in offering Brazilian jiu-jitsu classes. The main goal of the website is to encourage prospective customers to sign up for a free trial class, and provide information about the gym (e.g. classes available, timings, location). 
 
+![picture](assets/images/Responsive.PNG)
+
 ## UX
 
 _Overview_
