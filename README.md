@@ -123,13 +123,89 @@ However, use of positive imagery can be effective in enticing potential customer
 
 _Existing_
 
+- Jumbotron for the attention grabbing call to action section on home page
+-	Fixed navbar at top containing links to pages for ease-of-use
+-	Modal to pop-up the sign-up form, common way of presenting sign-up forms
+-	Carousel to display the testimonials, reduces screen real-estate and makes page more dynamic
+-	Responsive gallery page, to cater for all screen sizes
+-	Google map showing location, to easily enable user to see on map
+-	Contact form, to enable processing of queries
+
 _Left to Implement_
+
+- Website design fits in with simplistic approach intended, could include additional features such as videos a later date
 
 ## Technologies Used
 
+- HTML5
+-	CSS3
+-	Bootstrap 4.5.2
+-	Gitpod
+-	Github
+
 ## Testing
 
+_General Functionality_
+
+- Tested the logo in navbar links back to homepage
+- Tested the links in navbar menu all link to the correct page
+- Tested the signup button brings up correct form via the modal
+- Tested all social media links in footer open in new tab
+- Tested map location correct
+- Tested map links open in separate tab (i.e. ‘directions’ or ‘view larger map’)
+- Tested contact form requests the required/mandatory information (i.e. name/email/subject)
+
+_User Stories_
+
+1. Gym Operator
+   *	I want to promote my gym in a positive light, in order to attract new clients and encourage them to sign up for a free trial class. 
+        *Lots of positive promotional information throughout website, including testimonials and images.*
+   *	I want to provide basic information about my gym (e.g. what Brazilian jiu-jitsu involves, when classes take place, gym location), which will give prospective clients the details the need to make an informed decision about trialling the class. 
+        *Website contains all this info, about page has details on jiu-jitsu, the timetable, the contact page has the location.*
+   *	I want to provide a simple way for potential clients to contact me in case of any queries, as this will again help clients with their decision to join. 
+        *There is a simple easy to use contact form on contact page.*
+   *	I want the website to include links to my other social media accounts, as this will hopefully provide potential clients with more positive impressions of the gym, and encourage them to trial the class.
+        *Social media links included in footer.*
+   *	I want the website to include a way for new clients to quickly and easily joining up for a free class, as the main objective of the website is to get new clients.
+        *Sign up button creates pop-up form, providing easy form to fill in to register for free class.*
+   
+2. Clients
+   *	I want some information on the classes, including some details on what Brazilian jiu-jitsu involves, the instructors, and class timings, to help me decide if I’m interested in trialling the class.
+        *Details provided on about page, giving info on jiu-jitsu, the instructors, and the timetable.*
+   *	I want to get an impression or feel of the gym, and see what the gym looks like, to help me decide if I’m interested in trialling the class. 
+        *Images are included on the gallery page for this purpose, aswell as throughout the site.*
+   *	I want details on the gym location, to help me decide if it’s convenient for me to join. 
+        *Location included in intro section on home page for overview, map and full address included on contact page.*
+   *	I want to see what other users think of the classes, to help me decide if I’m interested in joining.
+        *Testimonials included on home page.*
+   *	I want a way to contact the gym, if I have any further questions I may have, to help me decide if I’m interested in joining.
+        *Easy to use contact form included on contact page.*
+   *  If I have decided to join, I want a quick and convenient way to sign up for my trial class.
+        *Easy to use sign-up form after clicking the sign-up button.*
+
+_Responsiveness_
+
+Used the inspect function to examine all pages of the website in all devices:
+-	On the about page I removed the ‘About BJJ’ header for smaller screens, as I found it wasn’t displaying properly
+-	I had to experiment with the contact form to get it to display fully on smaller screens, I ended up adding padding and changing the font-size of the ‘Any queries? Get in touch’ header to ensure there were no issues
+I ensured all features which were designed to be worked properly by changing the screen size and using the inspect function on developer tools, i.e. the ‘Why Join’ and ‘Pricing’ sections on the home page, the ‘Instructors’ section on the about page, the images on the gallery page, and the map and address on the ‘contact’ page.
+
+_HTML/CSS Code Validator_
+
+All code passed validation tests.
+
+_Images_
+
+I used [tiny png](https://tinypng.com/) to compress the images, once done this reduced the loading time for the website.
+
 ## Deployment
+
+The website code was written in gitpod (IDE). The code was stored in github (repository).
+
+To deploy the website, under the github repository, I went to settings > github pages > chose ‘master’ branch, after which the website was deployed.
+
+You can run the code locally by clicking on the ‘code’ button on my repository, full link below:
+https://github.com/upeshp/MS1_EliteBJJ
 
 ## Credits
 
@@ -138,6 +214,38 @@ _Content_
 _Media_
 
 _Acknowledgements_
+
+The structure and layout of the website was strongly influenced from the Code Institute exercises ‘Whiskey Drop’, ‘Love Running’, and ‘Rosie CV’:
+ - [Code Institute](https://courses.codeinstitute.net/program/FullstackWebDeveloper)
+
+The slack presentations from Jim Lynx & Anna Greaves from Code Institute on MS1 were frequently used throughout:
+ - [Presentations](https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1600891345081300?thread_ts=1600879715.061700&cid=C7J2ZAVHB)
+
+The following jiu-jitsu club and gym websites were used for research purposes to help me define my scope:
+ - www.purejiujitsu.com
+ - www.ruislipbjj.com
+ - www.pumpgyms.com/watfordtolpitslane
+
+Bootstrap documentation was used to tailor and correct code:
+ - [Bootstrap Documentation](https://getbootstrap.com/docs/4.5/)
+
+Images were used from Unsplash:
+- [Unsplash](https://unsplash.com/s/photos/martial-arts)
+
+The following websites have code I borrowed from:
+ - Map section: https://www.embedgooglemap.net/en/?gclid=EAIaIQobChMI7eqzj-yQ7QIVAuvtCh1wrwHSEAAYASAAEgJInPD_BwE
+ - Gallery page: https://codepen.io/Fullyworld_Web_Tutorials/pen/KKdppEZ
+
+The following websites were used to resolve issues:
+ - Top of content bwing hidden by navbar: https://stackoverflow.com/questions/10336194/top-nav-bar-blocking-top-content-of-the-page
+ - General aligning of items in bootstrap grid, especially the contact form: https://ajgreaves.github.io/bootstrap-grid-demo/
+ - Changing the color of the navbar hover link: https://stackoverflow.com/questions/16625972/change-color-of-bootstrap-navbar-on-hover-link
+ - Fixed HTML validation error where ‘frameborder’ attribute was showing as obsolete: http://help.simplytestable.com/errors/html-validation/the-x-attribute-on-the-y-element-is-obsolete-use-css-instead/the-frameborder-attribute-on-the-iframe-element-is-obsolete-use-css-instead/
+
+Code institute mentor:
+ - Akshat Garg
+
+
 
 
 --------
