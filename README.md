@@ -120,6 +120,8 @@ Use of positive imagery can be effective in enticing potential customers to this
 
 [Wireframes](https://github.com/upeshp/MS1_EliteBJJ/tree/master/assets/docs/wireframe)
 
+Note: version 2 of the files include changes made to my initial wireframes following feedback from my Code Institute mentor, during the planning session at the start of the project.
+
 **Surface** 
 
 -	The header and footer will be the same colour.
