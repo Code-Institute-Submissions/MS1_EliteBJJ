@@ -143,7 +143,7 @@ _Existing_
 
 _Left to Implement_
 
-- Website design fits in with simplistic approach intended. Could include additional features such as videos a later date.
+- Website design fits in with simplistic approach intended. Could include additional features such as videos at a later date.
 
 ## Technologies Used
 
@@ -211,13 +211,13 @@ All code passed validation tests from the [HTML](https://validator.w3.org/) and 
 
 _Images_
 
-I used [tiny png](https://tinypng.com/) to compress the images, once done this reduced the loading time for the website.
+I used [Tiny Png](https://tinypng.com/) to compress the images, once done this reduced the loading time for the website.
 
 ## Deployment
 
-The website code was written in gitpod (IDE). The code was stored in github (repository).
+The website code was written in Gitpod (IDE). The code was stored in Github (repository).
 
-To deploy the website, under the github repository, I went to settings > github pages > chose ‘master’ branch, after which the website was deployed.
+To deploy the website, under the Github repository, I went to Settings > Github Pages > Chose ‘master’ branch, after which the website was deployed.
 
 You can run the code locally by clicking on the ‘code’ button on my repository, full link below:
 https://github.com/upeshp/MS1_EliteBJJ
@@ -233,10 +233,10 @@ The slack presentations from Jim Lynx & Anna Greaves from Code Institute on MS1 
  - [Presentations](https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1600891345081300?thread_ts=1600879715.061700&cid=C7J2ZAVHB)
 
 The following jiu-jitsu club and gym websites were used for research purposes to help me define my scope:
- - www.rgawatford.co.uk/
- - www.purejiujitsu.com
- - www.ruislipbjj.com
- - www.pumpgyms.com/watfordtolpitslane
+ - [RGA Watford](www.rgawatford.co.uk/)
+ - [Pure Jiujitsu](www.purejiujitsu.com)
+ - [Ruislip BJJ](www.ruislipbjj.com)
+ - [Pump Gyms](www.pumpgyms.com/watfordtolpitslane)
 
 Bootstrap documentation was used to tailor and correct code:
  - [Bootstrap Documentation](https://getbootstrap.com/docs/4.5/)
