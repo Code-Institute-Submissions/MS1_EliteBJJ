@@ -2,6 +2,8 @@
 
 I am designing a website for a fictitious martial arts gym, specialising in offering Brazilian jiu-jitsu classes. The main goal of the website is to encourage prospective customers to sign up for a free trial class, and provide information about the gym (e.g. classes available, timings, location). 
 
+![picture](assets/images/Responsive.PNG)
+
 ## UX
 
 _Overview_
@@ -118,13 +120,15 @@ Use of positive imagery can be effective in enticing potential customers to this
 
 [Wireframes](https://github.com/upeshp/MS1_EliteBJJ/tree/master/assets/docs/wireframe)
 
+Note: version 2 of the files include changes made to my initial wireframes following feedback from my Code Institute mentor, during the planning session at the start of the project.
+
 **Surface** 
 
 -	The header and footer will be the same colour.
 -	The colour scheme will use 3 colours, black, white and red.
 -	Red has been used following research, where I found red invokes feelings of excitement, and wanting to take action, which is suited to a martial arts gym [Source: Crazyegg](https://www.crazyegg.com/blog/website-color-palettes/)
 -	The red is used for items where we want to draw the users attention, for example the main CTA button.
-- The fonts used will be Oswald and Lato from Google Fonts, this is following research I did where I found these were in the top 5 used fonts for gym websites [Source: I Love WP] (https://www.ilovewp.com/resources/wordpress-for-gyms/most-used-google-fonts-on-gym-websites/). In addition, having seen how effective this font combination looked on the Code Institute 'Love Running' website, and given the similarites in the type of websites, I decided it would be ideal for use here.
+- The fonts used will be Oswald and Lato from Google Fonts, this is following research I did where I found these were in the top 5 used fonts for gym websites [Source: I Love WP](https://www.ilovewp.com/resources/wordpress-for-gyms/most-used-google-fonts-on-gym-websites/). In addition, having seen how effective this font combination looked on the Code Institute 'Love Running' website, and given the similarites in the type of websites, I decided it would be ideal for use here.
 -	For smaller displays, the menu will change to a burger bar, for ease of use, and some sections will scroll from top-to-bottom instrad of left-to-right (i.e. the the ‘Why Join?’ bulletpoints and the instructors/class timetable on the about page).
 -	Similarly, the columns of images displayed on the gallery page will reduce for ease-of-use and cleaner presentation.
 
