@@ -34,7 +34,7 @@ The primary goal is to meet the gym owners objectives, which is to encourage pot
 
 **Scope** 
 
-The overall look and feel of the website was influenced by researching websites of similar businesses, particularly other mixed martial arts gyms, along with other traditional gyms:
+The overall look and feel of the website was influenced by researching websites of similar businesses, particularly other mixed martial arts gyms, along with other traditional gyms (credits at end):
 -	These generally have a sleek, modern feel, with vibrant colours, however they also incorporate a minimalistic design, where only two or three colours tend to be used throughout the website.
 -	The content on the websites is fairly minimal, the focus is on providing high-level useful information to the users (such as info on classes), along with encouraging users to sign-up.
 -	There are no complicated features used on these websites, they are simple to use and navigate through, you can usually scroll through the whole website in a matter of minutes. 
@@ -122,9 +122,9 @@ Use of positive imagery can be effective in enticing potential customers to this
 
 -	The header and footer will be the same colour.
 -	The colour scheme will use 3 colours, black, white and red.
--	Red has been used following research, where I found red invokes feelings of excitement, and wanting to take action, which is suited to a martial arts gym (source: https://www.crazyegg.com/blog/website-color-palettes/).
+-	Red has been used following research, where I found red invokes feelings of excitement, and wanting to take action, which is suited to a martial arts gym [Source: Crazyegg](https://www.crazyegg.com/blog/website-color-palettes/)
 -	The red is used for items where we want to draw the users attention, for example the main CTA button.
-- The fonts used will be Oswald and Lato from Google Fonts, this is following research I did where I found these were in the top 5 used fonts for gym websites (source: https://www.ilovewp.com/resources/wordpress-for-gyms/most-used-google-fonts-on-gym-websites/). In addition, having seen how effective this font combination looked on the Code Institute 'Love Running' website, and given the similarites in the type of websites, I decided it would be ideal for use here.
+- The fonts used will be Oswald and Lato from Google Fonts, this is following research I did where I found these were in the top 5 used fonts for gym websites [Source: I Love WP] (https://www.ilovewp.com/resources/wordpress-for-gyms/most-used-google-fonts-on-gym-websites/). In addition, having seen how effective this font combination looked on the Code Institute 'Love Running' website, and given the similarites in the type of websites, I decided it would be ideal for use here.
 -	For smaller displays, the menu will change to a burger bar, for ease of use, and some sections will scroll from top-to-bottom instrad of left-to-right (i.e. the the ‘Why Join?’ bulletpoints and the instructors/class timetable on the about page).
 -	Similarly, the columns of images displayed on the gallery page will reduce for ease-of-use and cleaner presentation.
 
@@ -200,7 +200,7 @@ Used the inspect function to examine all pages of the website in all devices:
 -	I had to experiment with the contact form to get it to display fully on smaller screens, I ended up adding padding and changing the font-size of the ‘Get in touch’ header to ensure there were no issues.
 
 However, following this, I tested the website on actual mobile devices I have at home (iPhone SE and iPhone 7). I found there were some issues which weren’t being picked up by the inspect function on developer tools:
--	The jumbotron images (on the home and about pages) were not being displayed properly, after searching on google I found a resolution here: https://stackoverflow.com/questions/43808272/jumbotron-background-image-is-not-responsive
+-	The jumbotron images (on the home and about pages) were not being displayed properly, after searching on google I found a resolution here: [Stackoverflow - jumbotron image display](https://stackoverflow.com/questions/43808272/jumbotron-background-image-is-not-responsive)
 -	I found on the smaller iPhone SE there were still some display issues, the text in the ‘About BJJ’ container was still overflowing, so some of the text was hidden behind the navbar, similarly the ‘Contact’ form was overflowing so the submit button overlapped the footer. To resolve this, I shortened the text in both of these sections, I decided it was feasible to do this without affecting the website presentation or functionality. 
 
 I ensured all features which were designed to be worked properly by changing the screen size and using the inspect function on developer tools, i.e. the ‘Why Join’ and ‘Pricing’ sections on the home page, the ‘Instructors’ section on the about page, the images on the gallery page, and the map and address on the ‘contact’ page.
@@ -209,9 +209,19 @@ _HTML/CSS Code Validator_
 
 All code passed validation tests from the [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) validation websites.
 
+Originally there was an issue with the HTML code, the iframe frameborder attribute was showing as obsolete, this was resolved by using CSS intsead of the frameborder attribute, solution found here [Simply Testable - frameborder](http://help.simplytestable.com/errors/html-validation/the-x-attribute-on-the-y-element-is-obsolete-use-css-instead/the-frameborder-attribute-on-the-iframe-element-is-obsolete-use-css-instead/)
+
 _Images_
 
 I used [Tiny Png](https://tinypng.com/) to compress the images, once done this reduced the loading time for the website.
+
+_Other_
+
+The following issues came up during the development and continuous review of the website:
+
+Top of content was being hidden by navbar, this was resolved using this as a guide: [Stackoverflow - navbar issue](https://stackoverflow.com/questions/10336194/top-nav-bar-blocking-top-content-of-the-page)
+Items such as the contact form were not always displaying centrally as intended, resolved using this as a guide: [Anna Greaves bootstrap guide](https://ajgreaves.github.io/bootstrap-grid-demo/)
+
 
 ## Deployment
 
