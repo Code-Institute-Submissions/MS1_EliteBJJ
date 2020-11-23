@@ -244,15 +244,15 @@ Images were used from Unsplash:
 - [Unsplash](https://unsplash.com/s/photos/martial-arts)
 
 The following websites have code I borrowed from:
- - Map section: https://www.embedgooglemap.net/en/?gclid=EAIaIQobChMI7eqzj-yQ7QIVAuvtCh1wrwHSEAAYASAAEgJInPD_BwE
- - Gallery page: https://codepen.io/Fullyworld_Web_Tutorials/pen/KKdppEZ
+ - Map section: [Embed google map](https://www.embedgooglemap.net/en/?gclid=EAIaIQobChMI7eqzj-yQ7QIVAuvtCh1wrwHSEAAYASAAEgJInPD_BwE)
+ - Gallery page: [Codepen - gallery](https://codepen.io/Fullyworld_Web_Tutorials/pen/KKdppEZ)
 
 The following websites were used to resolve issues:
- - Top of content being hidden by navbar: https://stackoverflow.com/questions/10336194/top-nav-bar-blocking-top-content-of-the-page
- - General aligning of items in bootstrap grid, especially the contact form: https://ajgreaves.github.io/bootstrap-grid-demo/
- - Changing the color of the navbar hover link: https://stackoverflow.com/questions/16625972/change-color-of-bootstrap-navbar-on-hover-link
- - Fixed HTML validation error where ‘frameborder’ attribute was showing as obsolete: http://help.simplytestable.com/errors/html-validation/the-x-attribute-on-the-y-element-is-obsolete-use-css-instead/the-frameborder-attribute-on-the-iframe-element-is-obsolete-use-css-instead/
- - Background images on jumbotrons not displaying correctly on mobile: https://stackoverflow.com/questions/43808272/jumbotron-background-image-is-not-responsive
+ - Top of content being hidden by navbar: [Stackoverflow - navbar issue](https://stackoverflow.com/questions/10336194/top-nav-bar-blocking-top-content-of-the-page)
+ - General aligning of items in bootstrap grid, especially the contact form: [Anna Greaves bootstrap guide](https://ajgreaves.github.io/bootstrap-grid-demo/)
+ - Changing the color of the navbar hover link: [Stackoverflow - hover link color](https://stackoverflow.com/questions/16625972/change-color-of-bootstrap-navbar-on-hover-link)
+ - Fixed HTML validation error where ‘frameborder’ attribute was showing as obsolete: [Simply Testable - frameborder](http://help.simplytestable.com/errors/html-validation/the-x-attribute-on-the-y-element-is-obsolete-use-css-instead/the-frameborder-attribute-on-the-iframe-element-is-obsolete-use-css-instead/)
+ - Background images on jumbotrons not displaying correctly on mobile: [Stackoverflow - jumbotron image display](https://stackoverflow.com/questions/43808272/jumbotron-background-image-is-not-responsive)
 
 Code institute mentor (for general advice):
  - Akshat Garg
